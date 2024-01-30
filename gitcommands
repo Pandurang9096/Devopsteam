@@ -19,3 +19,5 @@ or to check origin --> open .git folder --> open config folder
 to check git logs --> git log
                       git log -1
                       git log -2
+to push code to remote --> git push origin main/master
+to pull code from remote --> git pull origin main/master
