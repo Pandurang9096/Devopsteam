@@ -1,0 +1,21 @@
+install git --> yum install git
+check git version --> git --version 
+make dir --> mkdir dirname
+inside dir --> git init
+create file in dir --> vi filename
+add file to staging area --> git add filename or *
+check file status --> git status
+remove file from staging area --> git rm --cached filename
+to transfer file to local --> git commit file name
+to transfer file to local --> git commit -m "commit message"
+to change author og commit
+    git config --global user.name "Pandurang"
+    git config --global user.email "Pandurang@gmail.com"
+    to check author --> git config list
+to edit author --> git config --global --edit
+to connect remote(github) repo to local repo --> git remote add origin (Repo link)
+to check origin --> git remote -v or git remote show origin
+or to check origin --> open .git folder --> open config folder
+to check git logs --> git log
+                      git log -1
+                      git log -2
